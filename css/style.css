@@ -1,0 +1,58 @@
+
+.navo {
+  width: 100%;
+  height: 60px;
+  display: inline;
+  border-radius: 8px;
+  
+}
+.navo ul{
+  display: flex;
+  list-style: none;
+  position: relative;
+}
+.navo a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 950px;
+  height: 60px;
+  text-decoration: none;
+  color: white;
+  
+}
+li:nth-child(1):{
+  width: 150px;
+}
+li:nth-child(2):{
+  width: 150px;
+  left: 450px;
+}
+#movies img, #movie img{
+  width:100%;
+}
+
+@media(min-width:960px){
+  #movies .col-md-3 .well{
+    height: 350px;
+  }
+
+  #movies .col-md-3 img{
+    height:250px;
+  }
+}
+
+#series img, #serie img{
+  width:100%;
+}
+
+@media(min-width:960px){
+  #series .col-md-3 .well{
+    height: 350px;
+  }
+
+  #series .col-md-3 img{
+    height:250px;
+  }
+
+
