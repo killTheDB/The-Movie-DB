@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>MovieInfo</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/sty.css">
+  </head>
+  <body>
+    <div class="container">
+            <nav class="navo">
+                <ul>
+                    <li><a class="navbar-brand" href="index.html"><h2>MovieDB</h2></a></li>
+                    <li><img src="hoodie.png" width="100px" height="100px"></li>
+                </ul>
+            </nav>    
+        </div>
+   <div class="main">
+   <span> 
+      <nav class="nav">
+      <ol>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="movies.html">Movie</a></li>
+        <li><a href="animes.html">Anime</a></li>
+        <li><a href="series.html">Series</a></li>
+        <li><a href="search.html">Search</a></li>
+        <li><a href="">Signup</a></li>
+        <li><a href="">Login</a></li>
+        <li class="animation"></li>
+      </ol>
+      </nav>  
+      </span> 
+     </div>
+
+    <div class="container">
+    	
+	    	<h3 class="text-center">Search for any movie/anime/series</h3><br>
+	    	<form class="search-box" id="searchForm">
+	    		<input type="text" class="form-control" id="searchText" placeholder="Press Enter Key to Search..." size="10">
+          <i class="fas fa-search"></i>
+	    	</form>
+	    
+    </div>
+    <br><br><br><br>
+    <div class="container">
+      <div id="movies" class="row"></div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="js/main.js"></script>
+  </body>
+</html>
